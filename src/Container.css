@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #1d3557;
+}
+.counter {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 20%;
+    padding: 50px 20px;
+    background-color: #a8dadc;
+    border-radius: 20px;
+}
+.decrease {
+    background-color: #e63946;
+}
+.btn {
+    padding: 6px 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 0 15px;
+}
+.increase {
+    background-color: #457b9d;
+}
+.reset {
+    background-color: #ffb703;
+}
+.Reset {
+    display: flex !important;
+
+}

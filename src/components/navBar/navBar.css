@@ -1,0 +1,24 @@
+
+
+
+.Wrapper{
+    background-color: rgb(248, 248, 83);
+}
+.navBar {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+ 
+}
+
+.links {
+    display: flex;
+    list-style: none;
+}
+.links li a {
+    margin: 0 10px;
+    cursor: pointer;
+}

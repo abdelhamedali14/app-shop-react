@@ -1,0 +1,16 @@
+.card {
+    min-height:100%;
+}
+.card-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.image_wrapper {
+   max-width: 100px;
+
+}
+.image_wrapper img {
+    object-fit: fill;
+    width: 100%;
+}
