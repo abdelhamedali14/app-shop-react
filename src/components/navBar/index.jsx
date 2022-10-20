@@ -6,9 +6,9 @@ export default function Index(props) {
 
   return (
     <div className="Wrapper shadow bg-white">
-      <div className="navBar">
-        <h2 className="text-info">logo</h2>
-        <ul className="links">
+      <div className="navBar ">
+        <h2 className="text-info">Shopping App</h2>
+        <ul className="links d-flex align-items-center fs-5 fw-bold">
           <li>
             <Link to="/Home" className="text-decoration-none text-dark">
               home
@@ -20,13 +20,18 @@ export default function Index(props) {
             </Link>
           </li>
           <li>
-            <Link to="/About" className="text-decoration-none text-dark">
-              About
+            <Link to="/AddToCart" className="text-decoration-none text-dark">
+              🛒 <span>{count}</span>
             </Link>
           </li>
           <li>
-            <Link to="/AddToCart" className="text-decoration-none text-dark">
-              🛒 <span>{count}</span>
+            <Link to="/SignUp" className="text-decoration-none text-dark btn btn-info">
+              sign up 
+            </Link>
+          </li>
+          <li>
+            <Link to="/SignIn" className="text-decoration-none text-dark btn btn-info ">
+              sign in 
             </Link>
           </li>
         </ul>

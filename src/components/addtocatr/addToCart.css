@@ -1,0 +1,15 @@
+.img_wrapper img:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
+}
+.img_wrapper {
+    overflow: hidden;
+    width: 100px;
+    border: 1 solid transparent;
+    border-radius: 20px;
+    
+}
+.img_wrapper img {
+    object-fit: fill;
+    width: 100%;
+}

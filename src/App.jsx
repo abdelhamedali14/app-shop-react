@@ -9,6 +9,9 @@ import Shop from "./components/shop/index";
 import Details from "./components/details/index";
 import AddToCart from "./components/addtocatr/index";
 import { useState } from "react";
+import SignUp from './components/signUp/index';
+import SignIn from "./components/sign in/SignIn";
+import NotFound from './components/details/notFound/index';
 
 function App(props) {
   const [Count, setCount] = useState(0);
@@ -32,6 +35,10 @@ function App(props) {
           <Route path="Shop" element={<Shop />} />
           <Route path="Details/:id" element={<Details />} />
           <Route path="AddToCart" element={<AddToCart />} />
+          <Route path="SignUp" element={<SignUp />} />
+          <Route path="/" element={<SignIn />} />
+          <Route path=" ** " element={<NotFound />} />
+          
         </Route>
       </Routes>
     </BrowserRouter>
